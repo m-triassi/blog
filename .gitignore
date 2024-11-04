@@ -1,0 +1,12 @@
+.idea
+.DS_Store
+.astro
+.vercel
+.netlify
+node_modules
+dist/
+_site/
+*.tsbuildinfo
+*.log
+.eslintcache
+.pnpm-store
