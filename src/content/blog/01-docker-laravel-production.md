@@ -1,7 +1,7 @@
 ---
 title: Production Ready Docker for Laravel
 excerpt: A guide to getting your Laravel application up and running in production with Docker, Caddy, and a few other tools.
-publishDate: 2024-11-13
+publishDate: 2024-11-16
 tags:
   - docker
   - laravel
@@ -255,7 +255,9 @@ To go beyond this, and add better scaling we'd likely need to employ some level 
 
 In the end, the choice is yours. I always caution developers against running to the highest possible scaling available until its absolutely needed. There's a high amount of complexity and maintenance burden associated with these tools, and reaching for them too early could seriously bog down development.
 
-Another nice addition we could explore is adding zero downtime deployments so that when a new image is downloaded we can start a new separate container, and gracefully stop the previous one. Since we're using a reverse proxy this should in theory be possible by setting Caddy to redirect traffic to the new container before stopping the old one. That way users wouldn't experience minimal downtime.
+Another nice addition we could explore is adding zero downtime deployments so that when a new image is downloaded we can start a new separate container, and gracefully stop the previous one. Since we're using a reverse proxy this should in theory be possible by setting Caddy  or by using [Traefik](https://doc.traefik.io/traefik/)) to redirect traffic to the new container before stopping the old one. That way users would experience minimal downtime.
+
+A lot of what was discussed in this post can even be handled automatically with [ServerSideUp's Spin](https://serversideup.net/open-source/spin/) or their [SpinPro](https://getspin.pro/) offering. They've done some great work that inspired a lot of what I wrote about here, so definitely consider supporting them and the work they do!
 
 ## Resources
 
