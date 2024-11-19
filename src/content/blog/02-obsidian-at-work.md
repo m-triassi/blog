@@ -65,4 +65,4 @@ Overall this system works really well for me; maybe it works well for you too. T
 
 ## Resources
 
-- [AnuPpuccun theme](https://github.com/AnubisNekhet/AnuPpuccin): How i made the vault pretty.
+- [AnuPpuccin theme](https://github.com/AnubisNekhet/AnuPpuccin): How i made the vault pretty.
