@@ -83,8 +83,8 @@ const siteConfig: SiteConfig = {
             href: 'https://www.linkedin.com/in/massimo-triassi-b430b5157/'
         },
         {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/massimotriassi'
+            text: 'Bluesky',
+            href: 'https://bsky.app/profile/triassi.dev'
         }
     ],
     hero: {
