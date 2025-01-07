@@ -13,4 +13,4 @@ _Email:_
 Feel free to drop me an email at [contact@triassi.ca](mailto:contact+blog@triassi.ca), and I'll do my best to respond as soon as possible.
 
 _Social Media:_
-Connect with me on social media as well. Find me on [LinkedIn](https://www.linkedin.com/in/massimo-triassi-b430b5157/) or [X/Twitter](https://x.com/MassimoTriassi).
+Connect with me on social media as well. Find me on [LinkedIn](https://www.linkedin.com/in/massimo-triassi-b430b5157/) or [Bluesky](https://bsky.app/profile/triassi.dev).
